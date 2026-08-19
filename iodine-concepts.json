@@ -1,0 +1,40 @@
+{
+  "concepts": [
+    {
+      "id": "A-documentary",
+      "universe": "documentary photography",
+      "prompt": "Editorial documentary photograph, dark moody kitchen at night. A small open container of ordinary table salt sits on a worn wooden counter, one hand faintly visible in shadow reaching toward it. Cinematic realism, shallow depth of field, warm low practical light with soft falloff, subtle film grain, imperfect analog texture, quiet and intelligent atmosphere. No text, no logos. 16:9 wide composition with dark negative space on the left.",
+      "negative": "typography, text, logo, watermark, glossy commercial food photography, bright clean kitchen, perfect plastic skin, advertising, floating objects, sci-fi glow"
+    },
+    {
+      "id": "B-conceptual",
+      "universe": "conceptual photography",
+      "prompt": "Conceptual editorial photograph: a single tiny white salt crystal on a dark tabletop casting a huge soft geographic shadow that resembles a world map spreading across the wall. Minimal, dramatic chiaroscuro, photographic realism, deep shadows, warm sepia tone, subtle grain, understated and intelligent. The crystal is small, the shadow is enormous. No text, no logos. 16:9 composition with generous dark negative space.",
+      "negative": "typography, text, logo, watermark, floating molecules, sci-fi effects, neon glow, obvious CGI, cliché medical imagery, advertising"
+    },
+    {
+      "id": "C-surrealism",
+      "universe": "editorial surrealism",
+      "prompt": "Editorial surrealist photograph: an ordinary kitchen table with a simple salt shaker, where the table surface subtly transforms into a vast dark distribution network of roads, rails and small moving lights spreading toward a distant horizon. Photorealistic but dreamlike, muted palette, warm highlights, deep shadows, film grain, quiet surrealism, intelligent and understated. No text, no logos. 16:9 composition with dark space for typography.",
+      "negative": "typography, text, logo, watermark, glowing neon, cartoon, illustration style, cliché fantasy, busy cluttered composition, advertising"
+    },
+    {
+      "id": "D-historical",
+      "universe": "historical print / 1920s public-health poster",
+      "prompt": "1920s public-health poster aesthetic, vintage lithograph print: a simple elegant illustration of a salt cellar and a small Swiss cross, muted cream and rust red and deep teal palette, worn paper texture, slight misregistration of print inks, archival patina, quiet dignified poster design in the style of early twentieth century public health campaigns. No readable text, no words, no letters. 16:9 composition.",
+      "negative": "typography, text, letters, words, readable text, logo, watermark, modern graphic design, neon, digital gradients, photo-realism, cliché medical posters"
+    },
+    {
+      "id": "E-minimal",
+      "universe": "minimal fine-art",
+      "prompt": "Minimal fine-art still life: one single white salt crystal standing on an immense dark matte field, extreme negative space, soft directional light carving the crystal's facets, almost abstract, meditative, gallery-quality photography, muted warm grey and off-white palette, imperceptible film grain. No text, no logos. 16:9 composition, subject small in frame, vast dark emptiness.",
+      "negative": "typography, text, logo, watermark, multiple objects, busy composition, bright background, color noise, cliché product shot, advertising"
+    },
+    {
+      "id": "F-industrial",
+      "universe": "industrial documentary",
+      "prompt": "Industrial documentary photograph: massive salt processing machinery, strong geometric composition, a cascade of white salt pouring through steel chutes, harsh functional overhead light, deep shadows, grainy 35mm film look, raw unglamorous industrial realism, muted grey and steel palette with warm highlights. No people visible. No text, no logos. 16:9 composition.",
+      "negative": "typography, text, logo, watermark, clean modern factory, CGI render, neon, bright airy environment, advertising, people faces"
+    }
+  ]
+}

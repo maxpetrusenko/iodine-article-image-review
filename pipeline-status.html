@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Iodine article — generation pipeline status</title>
+<style>
+  body { margin:0; background:#141210; color:#eee; font-family:Georgia,serif; padding:28px; }
+  h1 { color:#e8c484; font-size:24px; letter-spacing:1px; }
+  .note { color:#999; font-size:14px; margin-bottom:20px; }
+  .card { background:#1d1a17; border:1px solid #333; border-radius:8px; padding:16px 18px; margin-bottom:14px; }
+  .card h3 { color:#e8c484; margin:0 0 6px; font-size:16px; }
+  .card p { margin:4px 0; font-size:14px; color:#ccc; }
+  .status { color:#7ee787; font-weight:bold; }
+  .wait { color:#e8c484; }
+  .bad { color:#ff7b72; }
+</style>
+</head>
+<body>
+<h1>Iodine article — image generation pipeline</h1>
+<div class="note">Status as of generation-setup. This page tracks the real pipeline: article &rarr; 6 visual universes &rarr; FLUX.1 Schnell (local ComfyUI) &rarr; rank &rarr; overlay.</div>
+
+<div class="card"><h3>1. ComfyUI install</h3><p class="status">DONE</p><p>torch 2.13.0, MPS enabled (Apple M2 Pro), venv at ~/Desktop/Projects/oss/ComfyUI/.venv</p></div>
+
+<div class="card"><h3>2. FLUX.1 Schnell model files</h3><p class="wait">DOWNLOADING</p><p>flux1-schnell-fp8.safetensors (~12GB) + clip_l + t5xxl_fp8 + ae.vae (~6GB total text encoders/vae)</p></div>
+
+<div class="card"><h3>3. Frozen workflow</h3><p class="status">READY</p><p>workflows/flux-schnell-t2i.api.json — UNETLoader + CLIPLoader(flux) + EmptySD3Latent + KSampler(4 steps, euler/simple, cfg 1.0) + VAEDecode + SaveImage. Agent patches prompt/seed/dims only.</p></div>
+
+<div class="card"><h3>4. Six visual universes</h3><p class="status">READY</p><p>A documentary kitchen &middot; B conceptual (salt crystal, world-map shadow) &middot; C editorial surrealism (table becoming distribution network) &middot; D 1920s public-health lithograph &middot; E minimal fine-art &middot; F industrial documentary. 2 candidates each &rarr; 12 images.</p></div>
+
+<div class="card"><h3>5. Queue client</h3><p class="status">READY</p><p>queue_flux.py — submits API workflow, patches prompt/seed/size, waits on /history, prints output files.</p></div>
+
+<div class="card"><h3>6. What failed before (fixed)</h3><p class="bad">Root cause</p><p>I treated extraction+treatment as image creation. It is not. The 2/10 rating was correct — video frames with filters are not article art. Generation is the only fix, and it is now installed and downloading.</p></div>
+</body>
+</html>
