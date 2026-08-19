@@ -1,0 +1,57 @@
+{
+  "article": {
+    "title": "The Easiest Way to Make the World Smarter Was Already in Your Kitchen",
+    "slug": "youtube-easiest-way-make-world-smarter-xrcwwzxj8gk",
+    "coreIdea": "A tiny, almost invisible public-health intervention (iodine added to salt at the factory) produced enormous population-scale cognitive gains — the world got smarter through a supply chain nobody noticed.",
+    "emotionalTone": "quiet awe at infrastructure; documentary; intelligent; understated",
+    "visualMetaphor": "domestic object with global-scale implication — the kitchen counter as the endpoint of a worldwide engineering decision"
+  },
+  "concepts": [
+    {
+      "id": "01-global-projection",
+      "concept": "Domestic → Global: one small object, planetary reach",
+      "depicts": "A single person standing before a projected Earth — the individual at the center of a global system",
+      "whyItRepresents": "Directly visualizes 'a tiny dose can travel a whole supply chain' — the person IS the endpoint of a worldwide distribution system",
+      "source": "EXTRACT from source video (presenter before Earth projection, ~10:30)",
+      "composition": "Subject lower-center, Earth as halo/backdrop, dark negative space bottom-left for type",
+      "candidate": "video: cand-e630 (Earth projection)"
+    },
+    {
+      "id": "02-domestic-kitchen",
+      "concept": "The kitchen counter as the endpoint of the system",
+      "depicts": "An ordinary kitchen table with salt and everyday food, warm domestic light",
+      "whyItRepresents": "The title literally promises 'your kitchen' — grounds the abstract story in the reader's own life",
+      "source": "EXTRACT from source video (kitchen food-plates scene, ~26:40)",
+      "composition": "Subject across mid-frame, warm tones, editorial card crop",
+      "candidate": "video: cand-1600 (kitchen scene)"
+    },
+    {
+      "id": "03-distribution-industrial",
+      "concept": "The unseen machine: salt flowing through industrial processing",
+      "depicts": "A cascade of white salt pouring through processing machinery — the factory step where iodine is added",
+      "whyItRepresents": "The article's key insight is that the fix happened at the factory, not the clinic — this is that moment, in motion",
+      "source": "EXTRACT from source video (iodized-salt processing footage, ~12:06; crop away baked-in caption)",
+      "composition": "Diagonal salt stream, dark machinery, high contrast; negative space for type",
+      "candidate": "video: salt-process (industrial cascade)"
+    },
+    {
+      "id": "04-history-packaging",
+      "concept": "The historical artifact: a century of iodized salt",
+      "depicts": "Vintage salt packaging / archival collage — Diamond Crystal, Michigan Salt Works, early public-health brands",
+      "whyItRepresents": "Grounds the story in 1918-1924 history (Switzerland, Michigan, the goiter belt) — a century-old decision",
+      "source": "EXTRACT from source video (archival packaging collage, ~9:20)",
+      "composition": "Collage texture; type overlays on parchment tones",
+      "candidate": "video: body-frame-2 (historical packaging collage)"
+    },
+    {
+      "id": "05-extraction-mine",
+      "concept": "Where iodine comes from: raw material at scale",
+      "depicts": "Aerial mining operation (caliche / salt extraction) — massive machines moving mineral",
+      "whyItRepresents": "Shows the 'supply chain' origin — the raw material before it becomes the invisible dose",
+      "source": "EXTRACT from source video (SQM caliche mine footage, ~9:00) — verify license; commercial footage",
+      "composition": "Aerial, texture-forward, documentary",
+      "candidate": "video: body-frame-1 (caliche mine)"
+    }
+  ],
+  "candidatePoolNote": "Primary pool: source video frames (5 distinct scenes). Secondary pool attempted: Wikimedia Commons public-domain salt-pond aerials — rate-limited/blocked this session; retry later with proper UA or use the API. Generation pool (ComfyUI + FLUX Schnell) not installed yet — recommended next step per tool research."
+}
